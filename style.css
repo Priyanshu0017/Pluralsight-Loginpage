@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.leftchild{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(13, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rightchild{
+    width: 60%;
+    height: 100vh;
+    background-image: url(/day3/login-bg\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rightchild h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.rightchild button{
+    height: 40px;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white; 
+    margin: 20px;
+}
+form{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftchild img{
+    width: 50%;
+}
+form input{
+    width: 60%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+form label{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 210px;
+}
+form button{
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(91, 157, 227);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form #caa{
+    background-color: rgb(92, 91, 91);
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+form #pass{
+    margin-right: 290px;
+}
+form hr{
+    width: 60%;
+    margin-top: 20px;
+    color: white;
+}
+form a{
+    color: rgb(23, 105, 220);
+    margin: 10px;
+    line-height: 30px;
+    text-decoration: none;
+}
+form a:hover{
+    text-decoration: underline;
+}
+span{
+    color: white;
+}
+span a{
+    margin-top: 60px;
+    color: white;
+}
+span a:hover{
+    color: rgb(23, 105, 220);
+}
+
+/* responsive code starts */
+
+@media (max-width:768px) {
+    .main-container{
+        height: auto;
+        width: 100%;
+    }
+}
